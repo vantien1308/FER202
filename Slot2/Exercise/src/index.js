@@ -7,6 +7,15 @@ import NamePerson from "./NamePerson";
 import PersonDetail from "./PersonDetail"; 
 import PeopleList from "./PeopleList";
 import PeopleTable from "./PeopleTable";
+<<<<<<< HEAD
+=======
+import FirstTeenager from "./FirstTeenager";
+import AreAllTeenagers from "./AreAllTeenagers";
+import SortedPeople from "./SortedPeople";
+import GroupByOccupation from "./GroupByOccupation";
+import OldestYoungest from "./OldestYoungest";
+import AverageAgeByOccupation from "./AverageAgeByOccupation";
+>>>>>>> dda28bf (update)
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,6 +25,15 @@ root.render(
     <PersonDetail /> 
     <PeopleList />
     <PeopleTable/>
+<<<<<<< HEAD
+=======
+    <FirstTeenager/>
+    <AreAllTeenagers/>
+    <SortedPeople/>
+    <GroupByOccupation/>
+    <OldestYoungest/>
+    <AverageAgeByOccupation/>
+>>>>>>> dda28bf (update)
   </React.StrictMode>
   
 );
