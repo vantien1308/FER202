@@ -1,0 +1,71 @@
+.cards-columns-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards-columns-row {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #fff;
+  padding: 18px 10px 22px 10px;
+  margin-bottom: 28px;
+  margin-top: 5px;
+}
+
+.cards-columns-row .card {
+  border-radius: 0;
+  margin-bottom: 0;
+  border-width: 10px;
+}
+
+.cards-columns-row .blue-card {
+  border-color: #2176ed;
+}
+
+.cards-columns-row .yellow-card {
+  border-color: #ffc633;
+}
+
+.cards-columns-row .red-card {
+  border-color: #c82b2b;
+}
+
+.cards-columns-row .card-img-top {
+  background: #fff;
+  object-fit: contain;
+  height: 220px;    /* tăng kích thước hình lên */
+  width: 100%;
+  padding: 8px 0 0 0;
+}
+
+.cards-columns-row .blue-card .card-body {
+  background: #2176ed;
+  color: #fff;
+}
+
+.cards-columns-row .yellow-card .card-body {
+  background: #ffc633;
+  color: #222;
+}
+
+.cards-columns-row .red-card .card-body {
+  background: #c82b2b;
+  color: #fff;
+}
+
+.cards-columns-row .card-text {
+  font-weight: 500;
+  color: black;
+}
+
+/* Responsive fix: */
+@media (max-width: 900px) {
+  .cards-columns-row {
+    padding: 10px 2px 14px 2px;
+  }
+  .cards-columns-row .card-img-top {
+    height: 140px; /* tăng nhẹ cho mobile luôn */
+  }
+}
