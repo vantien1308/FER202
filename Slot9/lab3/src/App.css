@@ -1,0 +1,190 @@
+body {
+  background: #333 !important;
+}
+
+.navbar {
+  background: #333 !important;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding: 30px;
+}
+
+.navbar .navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+.form-control[type="search"] {
+  border: none;
+  border-radius: 0;
+  background: #fff;
+  font-size: 1rem;
+  padding: 5px 10px;
+}
+
+/* App.css */
+
+.menu-section {
+  background: #333;
+  padding: 40px 0;
+}
+
+.menu-container {
+  max-width: 1200px;
+}
+
+.menu-title {
+  color: #fff;
+  margin-bottom: 32px;
+  font-weight: 600;
+}
+
+.pizza-col {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.pizza-card {
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.pizza-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: yellow;
+  color: #222;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 5px 18px;
+  border-bottom-right-radius: 8px;
+  z-index: 2;
+  letter-spacing: 1px;
+}
+
+.pizza-img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.pizza-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 14px;
+}
+
+.pizza-price {
+  font-size: 1rem;
+  margin-bottom: 18px;
+}
+
+.pizza-price-original {
+  text-decoration: line-through;
+  color: #888;
+  margin-right: 6px;
+}
+
+.pizza-price-discount {
+  color: orange;
+  font-weight: bold;
+}
+
+.pizza-price-normal {
+  color: black;
+  font-weight: bold;
+}
+
+.pizza-button {
+  width: 100%;
+  background: #333;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  padding: 10px 0;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
+
+.custom-btn,
+.btn-buy {
+  width: 100%;
+  background: #333;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  padding: 10px 0;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+
+.custom-btn:hover,
+.btn-buy:hover {
+  background: #111;
+}
+
+.py-5 {
+  padding-top: 3rem!important;
+  padding-bottom: 3rem!important;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem!important;
+}
+
+.book-form-label {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.book-form-input,
+.form-control, .form-select {
+  border-radius: 3px;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.form-control:focus, .form-select:focus {
+  box-shadow: none;
+  border-color: #d32f2f;
+}
+
+.btn-warning {
+  background: #ffd600 !important;
+  border: none !important;
+  color: #333 !important;
+  font-weight: 500;
+  width: 180px;
+  font-size: 1.1rem;
+  transition: background 0.2s;
+  border-radius: 4px;
+}
+
+.btn-warning:hover {
+  background: #ffb300 !important;
+  color: #333 !important;
+  
+}
