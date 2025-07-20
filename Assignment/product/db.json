@@ -1,0 +1,101 @@
+{
+  "phones": [
+    {
+      "id": "1",
+      "name": "iPhone 15 Pro Max",
+      "description": "A17 Pro, 8GB RAM, 256GB, Titanium",
+      "price": "34.999.000",
+      "currentPrice": "32.999.000",
+      "images": "iphone15promax.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S24 Ultra",
+      "description": "Snapdragon 8 Gen 3, 12GB RAM, 512GB",
+      "price": "39.990.000",
+      "currentPrice": "36.990.000",
+      "images": "galaxys24ultra.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Xiaomi 14 Ultra",
+      "description": "Snapdragon 8 Gen 3, 16GB RAM, 1TB",
+      "price": "29.990.000",
+      "currentPrice": "27.490.000",
+      "images": "xiaomi14ultra.jpg"
+    },
+    {
+      "id": "4",
+      "name": "OPPO Find X7 Ultra",
+      "description": "Snapdragon 8 Gen 3, 16GB RAM, 512GB, 1-inch sensor",
+      "price": "32.990.000",
+      "currentPrice": "30.990.000",
+      "images": "findx7ultra.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Google Pixel 8 Pro",
+      "description": "Google Tensor G3, 12GB RAM, 128GB",
+      "price": "25.990.000",
+      "currentPrice": "23.490.000",
+      "images": "pixel8pro.jpg"
+    },
+    {
+      "id": "6",
+      "name": "ASUS ROG Phone 8 Pro",
+      "description": "Snapdragon 8 Gen 3, 16GB RAM, 512GB, Gaming",
+      "price": "27.990.000",
+      "currentPrice": "25.990.000",
+      "images": "rogphone8pro.jpg"
+    },
+    {
+      "id": "7",
+      "name": "realme GT5 Pro",
+      "description": "Snapdragon 8 Gen 3, 16GB RAM, 1TB",
+      "price": "19.990.000",
+      "currentPrice": "17.990.000",
+      "images": "realmegt5pro.jpg"
+    },
+    {
+      "id": "8",
+      "name": "vivo X100 Pro",
+      "description": "Dimensity 9300, 16GB RAM, 512GB, ZEISS camera",
+      "price": "27.990.000",
+      "currentPrice": "24.990.000",
+      "images": "vivox100pro.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Sony Xperia 1 V",
+      "description": "Snapdragon 8 Gen 2, 12GB RAM, 256GB, 4K OLED",
+      "price": "32.000.000",
+      "currentPrice": "30.000.000",
+      "images": "xperia1v.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Nokia XR21",
+      "description": "Snapdragon 695, 6GB RAM, 128GB, IP68 rugged",
+      "price": "12.990.000",
+      "currentPrice": "11.490.000",
+      "images": "nokiaxr21.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Iphone 14 Pro Max",
+      "description": "A17 Pro, 8GB RAM, 128GB",
+      "price": "24.990.000",
+      "currentPrice": "22.990.000",
+      "images": "iphone14promax.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123456",
+      "fullName": "Tran Van Tien",
+      "email": "tranvantien13082004@gmail.com"
+    }
+  ]
+}
